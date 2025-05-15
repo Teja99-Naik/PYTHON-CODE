@@ -1,0 +1,11 @@
+
+Match,Innings,Player Name,Catches,Run Outs,Stumpings,Good Throws,Bad Throws,Missed Run Outs,Difficult Catches Taken,Difficult Catches Dropped,Runs Saved,Runs Conceded
+1,1,Player A,2,1,0,3,1,0,1,0,4,2
+1,1,Player B,1,0,0,1,2,1,0,1,2,5
+1,2,Player C,0,1,1,2,0,1,1,0,3,1
+
+PS = C + RO + ST + 0.5 * Good Throws - 0.5 * Bad Throws - 0.5 * Missed Run Outs
+     + Difficult Catches Taken - 0.5 * Difficult Catches Dropped
+     + Runs Saved - Runs Conceded
+
+     
